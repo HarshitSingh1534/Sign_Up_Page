@@ -1,0 +1,48 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  background-image: url("ss.jpg");
+  background-position: center;
+}
+.sign-up-form{
+  width:300px;
+  box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+  background:#fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+.sign-up-form h1{
+  color: #1c8adb;
+  margin-bottom:30px;
+}
+
+.form-field label{
+  display: block;
+  color:#777;
+  margin-left:0px;
+  font-weight: bold;
+  text-align: left;
+}
+.input-box{
+    border: solid 2px #999897;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+.form-field input:focus {
+    outline: none;
+}
+.form-field.error input {
+    border-color: #dc3545;
+}
+.form-field.success input {
+    border-color: #28a745;
+}
+.form-field small {
+    color:  #ffc107;
+}
